@@ -1,0 +1,49 @@
+/*syntax: selector { declaration block }*/
+/*declaration block: property : value ; */
+
+/*UNIVERSAL selector*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*TYPE selector*/
+h1 {
+	color: orangered;
+	font-size: 50px;
+}
+
+/*p {
+	background-color: pink;
+}*/
+
+/*ID Selector*/
+#p1 {
+	background-color: green;
+}
+
+/*CLASS selector*/
+.right {
+	float: right;
+}
+
+/*ATTRIBUTE selector*/
+[type="text"] {
+	color: blue;
+	background-color: yellow;
+}
+
+/*adjacent sibling selector ( + )*/
+/*p + div + p {
+}*/
+
+/*general sibling selector ( ~ )*/
+/*#child1 ~ div > p {
+}*/
+
+/*child selector ( > )*/
+
+/*descendant selector (white space)*/
+#parent div {
+	background-color: green;
+}

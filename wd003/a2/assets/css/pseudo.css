@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*pseudo classes - targets `state` of element*/
+/*syntax: element colon state*/
+
+/*focus is when you enter the text field/area*/
+input:focus {
+	background-color: pink;
+}
+
+a:visited {
+	color: black;
+}
+
+/*link is state when not yet visited*/
+a:link {
+	color: green;
+}
+
+h1:hover, a:hover {
+	color: blue;
+}
+
+/*active - when clicking (present tense)*/
+h1:active, a:active {
+	color: yellow;
+}
+
+/*LoVe, HAte*/
+
+/*pseudo elements (::)*/
+#section2::first-line {
+	color: red;
+}
+
+h2::first-letter {
+	font-size: xx-large;
+	color: blue;
+}
+
+h1::after {
+	content: "♥";
+	color: red;
+}
+
+h2::selection {
+	color: yellow;
+	background-color: black;
+}
+
+
+
+
+
